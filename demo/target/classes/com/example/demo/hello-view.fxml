@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #A3C3D9;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <Label graphicTextGap="1.0" layoutX="185.0" layoutY="32.0" prefHeight="78.0" prefWidth="231.0" text="Антипатия">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="password" layoutX="264.0" layoutY="200.0" />
+      <Label layoutX="161.0" layoutY="187.0" text="Пароль">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="login" layoutX="264.0" layoutY="141.0" />
+      <Label layoutX="166.0" layoutY="140.0" text="Логин">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="354.0" layoutY="244.0" mnemonicParsing="false" onAction="#onLoginButtonClic" style="-fx-background-color: #A8C256;" text="Login in" textFill="#1e1d1d" />
+   </children>
+</AnchorPane>
